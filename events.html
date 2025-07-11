@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events-jst</title>
+</head>
+
+<body onresize="alert('resizing')" style="width: 100%;"> <!-- onload was worked in body does not work in input,etc --> 
+    <!--onload="alert('enter the name'
+    onscroll="alert('scrolling')" style="height: 900px;"
+    onunload="alert('page is unload')" it is block in modern browsers for security purpose
+    -->
+
+
+    <button onclick="alert('Button was Clicked' )">click</button> <br><br>
+     <button ondblclick="alert('Button was Clicked' )">db-click</button><br><br>
+
+    <!-- Mouse events -->
+    <!-- <input type="text" name="" id="" placeholder="enter any text here"
+        onmouseleave="alert('mouseleave')">
+    <input type="text" name="" id="" placeholder="enter any text here"
+        onmousedown="alert('mousedown')">
+    <input type="text" name="" id="" placeholder="enter any text here"
+        onmouseenter="alert('mousecenter')">
+    <input type="text" name="" id="" placeholder="enter any text here"
+        onmouseout="alert('mouseout')">
+    <input type="text" name="" id="" placeholder="enter any text here"
+        onmousewheel="alert('mousewheel') " style="height: 700px;"> -->
+
+        <!-- keyboard events -->
+         <!--keyup works on special characters and it works with every key in the keyboard shift is  work on this-->
+          <input type="text" name="" id="" placeholder="enter any text here"
+        onkeydown="alert('keydown')">
+
+        <!--keyup works on special characters and it works with every key in the keyboard shift is  work on this-->
+         <input type="text" name="" id="" placeholder="enter any text here"
+        onkeyup="alert('keyup')">  
+
+         <!--keypress works on special characters shift is not work on this-->
+         <input type="text" name="" id=""  onblur="alert('blur')" placeholder="enter any text here"
+        onkeypress="alert('keypress')"> <br><br>   
+
+        <!-- on change -- onchange="alert('You have changed the options')"-->
+          <form>
+        <label for="">Choose any option from the dropdown: </label>
+        <select name="" id="" onfocus="alert('focus')"  >
+            <option value="">---Selet the option---</option>
+            <option value="">HTML</option>
+            <option value="">CSS</option>
+            <option value="">JS</option>
+            <option value="">GIT</option>
+            <option value="">React</option>
+        </select>
+    </form>
+</body>
+
+</html>
