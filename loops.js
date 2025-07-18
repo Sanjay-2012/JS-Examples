@@ -65,3 +65,20 @@ let animals =["cat","dog","camel","cow","goat"]
 animals.forEach(function(animals) {
     console.log(animals);
 });
+
+/*
+for of
+for...of is used to go through each item in things like arrays and strings — but not plain objects.
+
+Syntax:
+for (let element of iterable) {
+    // code to execute for each element
+}
+*/
+console.log("*****For of******");
+
+let color = ["red","blue","grey","orange"];
+
+for(let colour of color){
+    console.log(colour);
+}
