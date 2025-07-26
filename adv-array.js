@@ -16,7 +16,7 @@ nums.forEach((n) => console.log(n * 2)); // 2, 4, 6
 
 /*
 .map()
-Creates a new array with transformed values.Input and Output both are array.It has return value
+The map() method creates a new array by applying a function to each element of the original array.Input and Output both are array.It has return value
 */
 console.log("***Map()***");
 
