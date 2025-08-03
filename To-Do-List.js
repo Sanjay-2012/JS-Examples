@@ -10,5 +10,5 @@ addButton.addEventListener("click", function () {
     newTask.innerText = taskText;
     taskList.appendChild(newTask);
     taskInput.value = "";
-  }
+ }
 });
