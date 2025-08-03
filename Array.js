@@ -9,7 +9,7 @@
 // 1.literal way 
 let fruits = ["apple", "banana", "cherry"];
 console.log(typeof fruits); 
-console.log(fruits);  
+console.log(fruits); 
 
 // To extract all the letters as per the position from the variable - older way
 console.log("---older way---");
